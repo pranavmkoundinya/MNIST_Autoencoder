@@ -58,5 +58,6 @@ Thus the model successfully learned to encode the MNIST images into a 11x1 vecto
 
 ## References
 
-[1] [TensorFlow Documentation](https://www.tensorflow.org/tutorials/generative/autoencoder)
+[1] [Intro to Autoencoders - TensorFlow Documentation](https://www.tensorflow.org/tutorials/generative/autoencoder)
+
 [2] [Making an Autoencoder - Towards Data Science](https://towardsdatascience.com/how-to-make-an-autoencoder-2f2d99cd5103)
