@@ -23,7 +23,7 @@ Due to the large dimensionality of the data, the autoencoder for MNIST is constr
 ![MNIST](StackedAutoencoder.png)
 
 
-The autoender used in this model has one input layer of 784 neurons which takes in the flattened image, three layers for the encoder(512, 256 and 128 neurons respectively), one latent layer of 11 neurons, and four layers for the decoder network(128, 256, 512 and 784 neurons respectively). Finally the 784 element vector is reshaped to an image of size (28x28), to compare with the input image. 
+The autoender used in this model has one input layer of 784 neurons which takes in the flattened image, three layers for the encoder(512, 256 and 128 neurons respectively), one latent layer of 11 neurons, and four layers for the decoder network(128, 256, 512 and 784 neurons respectively). Finally the 784 element vector is reshaped to an image of size (28x28), to compare with the input image. The autoencoder has been implemented using TensorFlow.
 
 ## Data preprocessing
 
@@ -54,3 +54,9 @@ The following shows the performance of the model on the test data:
 ![loss_no_dropouts](outputs.png)
 
 Thus the model successfully learned to encode the MNIST images into a 11x1 vector with high levels of acccuracy.
+
+
+## References
+
+[1] [TensorFlow Documentation](https://www.tensorflow.org/tutorials/generative/autoencoder)
+[2] [Making an Autoencoder - Towards Data Science](https://towardsdatascience.com/how-to-make-an-autoencoder-2f2d99cd5103)
