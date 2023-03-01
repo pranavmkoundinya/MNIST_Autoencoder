@@ -23,7 +23,7 @@ Due to the large dimensionality of the data, the autoencoder for MNIST is constr
 ![MNIST](StackedAutoencoder.png)
 
 
-The autoender used in this model has one input layer of 784 neurons which takes in the flattened image, three layers for the encoder(512, 256 and 128 neurons respectively), one latent layer of 11 neurons, and four layers for the decoder network(128, 256, 512 and 784 neurons respectively). Finally the 784 element vector is reshaped to an image of size (28x28), to compare with the input image. The autoencoder has been implemented using TensorFlow.
+The autoender used in this model has one input layer of 784 neurons which takes in the flattened image, three layers for the encoder(512, 256 and 128 neurons respectively), one latent layer of 11 neurons, and four layers for the decoder network(128, 256, 512 and 784 neurons respectively). Finally the 784 element vector is reshaped to an image of size (28x28), to compare with the input image. Every FC layer(except input and output layer) is activated with ReLU nonlinearity. The autoencoder has been implemented using TensorFlow.
 
 ## Data preprocessing
 
