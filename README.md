@@ -39,18 +39,18 @@ The model was trained for 20 epochs using Adam optimizer with learning rate of 0
 With the above mentioned set of hyperparameters the loss function tends to initially reduce but becomes stagnant, and fails to converge. Increasing or decreasing the learning rate does not help improve the results.
 
 
-![loss_no_dropouts](../loss_no_dropouts.png)
+![loss_no_dropouts](loss_no_dropouts.png)
 
 ## Solution: Dropouts
 
 When dropouts are used in each layer, with a rate of 20%(along with the initial set of hyperparameters) the loss converges and the model successfully trains to encode and decode the data. At the end of training, the loss reduces to   from   . The performance on the testing data is very close to that on the training data, thus indicating that the model is generalizing on new data.
 
-![loss_no_dropouts](../loss_dropouts.png)
+![loss_no_dropouts](loss_dropouts.png)
 
 The following shows the performance of the model on the test data:
 
-![loss_no_dropouts](../inputs.png)
+![loss_no_dropouts](inputs.png)
 
-![loss_no_dropouts](../outputs.png)
+![loss_no_dropouts](outputs.png)
 
 Thus the model successfully learned to encode the MNIST images into a 11x1 vector with high levels of acccuracy.
