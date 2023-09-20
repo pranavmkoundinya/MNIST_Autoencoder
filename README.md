@@ -6,7 +6,7 @@ Autoencoders are a type of neural networks used in representational learning to 
 
 ![Architecture](architecture.png)
 
-The encoder part of the networl takes data from the input space and maps/encodes it into a latent space of lower dimensionality. The decoder achieves the reverse process; recovering the original data from the latent space onto the output space. As expected, the number of neurons in the input and the output layers is the same. The latent layer is also referred to as the bottleneck layer.
+The encoder part of the network takes data from the input space and maps/encodes it into a latent space of lower dimensionality. The decoder achieves the reverse process; recovering the original data from the latent space onto the output space. As expected, the number of neurons in the input and the output layers is the same. The latent layer is also referred to as the bottleneck layer.
 
 
 ## MNIST dataset
